@@ -1,0 +1,24 @@
+print("calculator")
+print("1*addition")
+print("2*subtraction")
+print("3*Multiplication")
+print("4*division")
+print()
+ch=int(input("entre the number between {1,2,3,4}"))
+  ch=int(input("entre the first number"))
+  ch=int(input("entre the second number"))
+print()
+if ch==1:
+   add=no1+no2
+  print("addition between two numbers is :",add)
+elif ch==2:
+   sub=no1-no2
+  print("subtraction between two numbers is :",sub)
+  elif ch==3:
+   multi=no1*no2
+  print("multiplication  between two numbers is :",multi)
+  elif ch==4:
+   div=no1/no2
+  print("division between two numbers is :",div)
+else:
+    print("entred some thhing wrong")
