@@ -1,0 +1,8 @@
+#code for example of if...else
+
+number = 10
+no=int(input("Enter the number: "))
+if number > 0:
+    print("Number is Posetive!!")
+else:
+    print("Condition not satisfied :(")
